@@ -52,7 +52,7 @@ namespace Problem1
 
             for (long i = 2; i < reduce; i++)
             {
-                if (reduce % i == 0)
+                while (reduce % i == 0)
                 {
                     reduce = reduce / i;
                     factAnswer = i;
